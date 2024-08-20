@@ -1,0 +1,31 @@
+{
+  "modules-right": [
+    "group/rightside"
+  ],
+  "group/rightside": {
+    "orientation": "horizontal",
+    "modules": [
+      "network#statusprefix",
+      "group/network",
+      "custom/cpuprefix",
+      "cpu",
+      "custom/memoryprefix",
+      "memory",
+      "battery#prefix",
+      "battery#suffix",
+      "custom/timeprefix",
+      "group/datetime",
+      "group/traygroup"
+    ]
+  },
+  "group/traygroup": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/cc",
+      "privacy",
+      "pulseaudio#prefix",
+      "tray"
+    ]
+  },
+  "_vim_": "# vim: set filetype=json:"
+}

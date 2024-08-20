@@ -1,0 +1,171 @@
+/* Don't edit this file, modify styleoptions.css if you want to change color */
+
+* {
+  border: none;
+  font-family: FantasqueSansM Nerd Font Mono;
+  font-size: 14px;
+}
+
+#leftside,
+#centerbottom {
+  background-color: @bg-color;
+  border-radius: 18px;
+  margin: 4px 4px 4px 4px;
+}
+
+#custom-poweroff,
+#custom-sleep,
+#custom-exit {
+  font-size: 30px;
+  padding: 0px 10px 0px 6px;
+}
+
+#user label {
+  font-size: 18px;
+  padding: 0px 6px 0px 6px;
+}
+
+#rightside {
+  background-color: @bg-color;
+  border-radius: 18px;
+  margin: 4px 8px 4px 4px;
+  color: @fg-color;
+}
+
+#traygroup {
+  background-color: @tray-bg-color;
+  border-radius: 0px 18px 18px 0px;
+  color: @tray-fg-color;
+  padding-right: 16px;
+}
+
+#traygroup.generic {
+  margin-left: 8px;
+}
+
+#custom-timeprefix,
+#custom-cpuprefix,
+#custom-dateprefix,
+#custom-memoryprefix,
+#network.statusprefix,
+#mpris.prefix,
+#network.dnlprefix,
+#custom-cc,
+#network.uplprefix {
+  font-family: FantasqueSansM Nerd Font Mono;
+  font-size: 26px;
+  padding-right: 7px;
+}
+
+#battery.prefix {
+  padding-right: 7px;
+}
+
+#mpris.prefix {
+  padding-left: 3px;
+}
+
+#pulseaudio {
+  font-size: 14px;
+}
+
+#custom-trayright {
+  padding-right: 4px;
+}
+
+window {
+  /* background: @fg-color; */
+  background: rgba(30, 30, 46, 0);
+  color: @fg-color;
+}
+
+#window {
+  margin: 4px 0px 4px 0px;
+}
+
+#window,
+#clock.centered {
+  border-radius: 18px;
+  /*background: @bg-color;*/
+  background: @bg-color;
+  padding: 3px;
+  font-weight: Bold;
+  margin: 4px 4px 4px 4px;
+}
+
+#tray {
+  padding: 0px 0px 0px 6px;
+}
+
+window#waybar.empty #window,
+window#waybar.solo #window {
+  background: transparent;
+}
+
+window#waybar.floating,
+window#waybar.tiled {
+  background: transparent;
+}
+
+/* dynamic color for some apps */
+
+#mpris,
+#mode {
+  color: @fg-color;
+}
+
+#mpris.suffix {
+  border-radius: 0px 18px 18px 0px;
+  padding-right: 4px;
+}
+
+#custom-barpadding {
+  font-size: 0px;
+  color: transparent;
+}
+
+#workspaces,
+#custom-app {
+  all: initial;
+  padding: 3px;
+  color: @fg-color;
+}
+
+#mode {
+  border-radius: 18px;
+  padding: 0px 6px;
+  margin-left: 3px;
+}
+
+#custom-app {
+  font-family: FantasqueSansMono Nerd Font;
+  font-size: 14px;
+}
+
+#workspaces button {
+  all: initial;
+  padding: 0px 9px 0px 8px;
+  background: transparent;
+  border-radius: 18px;
+  color: @fg-color;
+}
+
+#workspaces button.focused,
+#workspaces button.active,
+#workspaces button.visible,
+#workspaces button.empty {
+  background: @selected-bg-color;
+  color: @selected-fg-color;
+}
+
+#clock {
+  padding: 0 15px 0 0;
+}
+
+#network.uplprefix,
+#mpris.prefix,
+#network.cpuprefixoff {
+  border-radius: 18px 0px 0px 18px;
+}
+
+@import url("styleoptions.css");
