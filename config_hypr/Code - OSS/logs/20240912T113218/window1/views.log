@@ -1,0 +1,14 @@
+2024-09-12 11:32:27.687 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2024-09-12 11:32:27.687 [info] Added views:workbench.panel.output in workbench.panel.output
+2024-09-12 11:32:27.687 [info] Added views:terminal in terminal
+2024-09-12 11:32:27.687 [info] Added views:outline in workbench.view.explorer
+2024-09-12 11:32:27.687 [info] Added views:workbench.scm in workbench.view.scm
+2024-09-12 11:32:27.687 [info] Added views:workbench.view.search in workbench.view.search
+2024-09-12 11:32:27.687 [info] Added views:timeline in workbench.view.explorer
+2024-09-12 11:32:27.687 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2024-09-12 11:32:28.462 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2024-09-12 11:32:30.770 [info] Added views:activeSceneTree,inspectNode in workbench.view.debug
+2024-09-12 11:32:30.771 [info] Added views:scenePreview in workbench.view.extension.godotTools
+2024-09-12 11:32:30.819 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2024-09-12 11:32:30.989 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2024-09-12 11:32:33.439 [info] Added views:test-explorer in workbench.view.extension.test

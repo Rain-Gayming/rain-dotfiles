@@ -1,0 +1,183 @@
+2024-09-12 15:38:04.411 [info] Extension host with pid 30039 started
+2024-09-12 15:38:04.411 [info] Skipping acquiring lock for /home/rain/.config/Code - OSS/User/workspaceStorage/d9889b2d1d35a9c1a41fffef2456f29b.
+2024-09-12 15:38:04.824 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-12 15:38:05.265 [info] ExtensionService#_doActivateExtension rust-lang.rust-analyzer, startup: false, activationEvent: 'onLanguage:rust'
+2024-09-12 15:38:06.224 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-12 15:38:06.449 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-09-12 15:38:06.796 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-12 15:38:07.259 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-12 15:38:07.489 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-09-12 15:38:07.919 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2024-09-12 15:38:07.924 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2024-09-12 15:38:07.924 [error] Error: Cannot find module '/home/rain/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1152:15)
+	at i._resolveFilename (node:electron/js2c/utility_init:2:13739)
+	at Module._load (node:internal/modules/cjs/loader:993:27)
+	at c._load (node:electron/js2c/node_init:2:13801)
+	at y._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:6031)
+	at i._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:181:32144)
+	at n._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:146:34326)
+	at Module.require (node:internal/modules/cjs/loader:1240:19)
+	at require (node:internal/modules/helpers:179:18)
+	at i (/usr/lib/code/out/bootstrap-fork.js:3:98)
+	at m.xb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:181:33345)
+	at async Promise.all (index 0)
+2024-09-12 15:38:08.235 [info] Eager extensions activated
+2024-09-12 15:38:08.257 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-12 15:38:08.508 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-12 15:38:09.562 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-12 15:38:19.625 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-12 15:38:19.677 [error] Canceled: Canceled
+	at new D (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at i.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:952009)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:802)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:1018)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972587)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978709
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978695)
+	at o.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4176)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at o.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:954307)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:13607
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11463)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:10282)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:6805)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-09-12 15:38:19.680 [error] Canceled: Canceled
+	at new D (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at i.value (/usr/lib/code/extensions/git/dist/main.js:2:1060944)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:802)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:1018)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972587)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978709
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978695)
+	at o.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4176)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at o.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:954307)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:13607
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11463)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:10282)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:6805)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-09-12 15:38:19.682 [error] Canceled: Canceled
+	at new D (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at pf (/home/rain/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.2104-linux-x64/out/main.js:39:70829)
+	at Object.yx (/home/rain/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.2104-linux-x64/out/main.js:377:315)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:10082)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:6805)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-09-12 15:38:19.689 [error] Canceled: Canceled
+	at new D (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at pf (/home/rain/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.2104-linux-x64/out/main.js:39:70829)
+	at Object.yx (/home/rain/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.2104-linux-x64/out/main.js:377:315)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:10082)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:6805)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619)
+2024-09-12 15:38:19.690 [info] Extension host with pid 30039 exiting with code 0
+2024-09-12 15:38:22.953 [info] Extension host with pid 30445 started
+2024-09-12 15:38:22.953 [info] Skipping acquiring lock for /home/rain/.config/Code - OSS/User/workspaceStorage/ea0f7c7672ebfd8d549e4289a6a83a58.
+2024-09-12 15:38:23.457 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-12 15:38:23.461 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-09-12 15:38:23.476 [info] ExtensionService#_doActivateExtension rust-lang.rust-analyzer, startup: true, activationEvent: 'workspaceContains:Cargo.toml'
+2024-09-12 15:38:23.686 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-12 15:38:23.724 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-12 15:38:23.789 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-09-12 15:38:24.187 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2024-09-12 15:38:24.192 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2024-09-12 15:38:24.192 [error] Error: Cannot find module '/home/rain/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1152:15)
+	at i._resolveFilename (node:electron/js2c/utility_init:2:13739)
+	at Module._load (node:internal/modules/cjs/loader:993:27)
+	at c._load (node:electron/js2c/node_init:2:13801)
+	at y._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:6031)
+	at i._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:181:32144)
+	at n._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:146:34326)
+	at Module.require (node:internal/modules/cjs/loader:1240:19)
+	at require (node:internal/modules/helpers:179:18)
+	at i (/usr/lib/code/out/bootstrap-fork.js:3:98)
+	at m.xb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:181:33345)
+	at async Promise.all (index 0)
+2024-09-12 15:38:24.310 [info] Eager extensions activated
+2024-09-12 15:38:24.334 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-12 15:38:24.338 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-12 15:38:29.075 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'

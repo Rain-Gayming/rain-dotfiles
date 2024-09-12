@@ -1,0 +1,30 @@
+2024-09-12 12:44:16.175 [info] Started local extension host with pid 1209.
+2024-09-12 12:44:24.320 [info] [perf] Render performance baseline is 58ms
+2024-09-12 12:45:08.925 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/rain/.config/hypr/hyprland.conf 
+2024-09-12 12:45:10.481 [info] Started local extension host with pid 1555.
+2024-09-12 12:45:14.289 [info] [perf] Render performance baseline is 62ms
+2024-09-12 14:12:56.803 [info] [onWill-handler] applying additional workspace edit from extensions ["rust-analyzer"]
+2024-09-12 14:18:55.443 [error] Unable to read file '/home/rain/programming/rust/rust-vulkan/src/shaders/compute_shader.rs' (Error: Unable to resolve nonexistent file '/home/rain/programming/rust/rust-vulkan/src/shaders/compute_shader.rs'): Error: Unable to read file '/home/rain/programming/rust/rust-vulkan/src/shaders/compute_shader.rs' (Error: Unable to resolve nonexistent file '/home/rain/programming/rust/rust-vulkan/src/shaders/compute_shader.rs')
+    at r.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:673:19434)
+    at r.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:673:19227)
+    at async p.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2466:35620)
+    at async p.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2466:35377)
+    at async P.Db (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2455:12240)
+    at async P.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2455:10652)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2466:31399
+2024-09-12 14:21:48.511 [error] There are no commenting ranges at the current position (with range).: Error: There are no commenting ranges at the current position (with range).
+    at H.addCommentAtLine (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2370:2669)
+    at H.addOrToggleCommentAtLine (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2370:2199)
+    at H.cb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2370:1902)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2369:22194)
+    at ne.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:100:732)
+    at ne.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:100:802)
+    at ne.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:100:1018)
+    at ne.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:782:22662)
+    at me.onMouseUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:782:20499)
+    at v.emitMouseUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:112:22500)
+    at k.emitMouseUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:710:52269)
+    at i.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:756:15240)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:756:12807
+    at HTMLDivElement.<anonymous> (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:751:34394)
+2024-09-12 14:26:25.199 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.workingCopyHistory

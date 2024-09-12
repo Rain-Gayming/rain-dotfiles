@@ -1,0 +1,4 @@
+2024-09-12T14:38:24.295844Z ERROR error="can't load standard library from sysroot\n{sysroot_path}\n(discovered via `rustc --print sysroot`)\ntry installing the Rust source the same way you installed rustc"
+2024-09-12T14:38:34.433980Z ERROR error="can't load standard library from sysroot\n{sysroot_path}\n(discovered via `rustc --print sysroot`)\ntry installing the Rust source the same way you installed rustc"
+2024-09-12T14:38:43.599362Z ERROR error="can't load standard library from sysroot\n{sysroot_path}\n(discovered via `rustc --print sysroot`)\ntry installing the Rust source the same way you installed rustc"
+2024-09-12T14:39:13.758918Z ERROR error="can't load standard library from sysroot\n{sysroot_path}\n(discovered via `rustc --print sysroot`)\ntry installing the Rust source the same way you installed rustc"

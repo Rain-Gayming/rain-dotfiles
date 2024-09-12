@@ -1,0 +1,3 @@
+bluetoothctl
+pair 40:72:18:9C:34:43
+connect 40:72:18:9C:34:43 

@@ -1,0 +1,10 @@
+2024-09-12 11:32:38.031 [info] Getting Manifest... rust-lang.rust-analyzer
+2024-09-12 11:32:38.681 [info] Installing extension: rust-lang.rust-analyzer {"productVersion":{"version":"1.93.0","date":"2024-09-07T09:42:20.897Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/rain/.vscode-oss/extensions/extensions.json","path":"/home/rain/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-12 11:32:42.375 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-09-12 11:32:42.376 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2024-09-12 11:32:43.032 [info] Extracted extension to file:///home/rain/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.2104-linux-x64: rust-lang.rust-analyzer
+2024-09-12 11:32:43.375 [info] Renamed to /home/rain/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.2104-linux-x64
+2024-09-12 11:32:43.580 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.2096-linux-x64
+2024-09-12 11:32:43.602 [info] Extension installed successfully: rust-lang.rust-analyzer vscode-userdata:/home/rain/.vscode-oss/extensions/extensions.json

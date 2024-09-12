@@ -1,0 +1,9 @@
+2024-09-12 12:44:03.955 [info] update#setState disabled
+2024-09-12 12:44:04.110 [info] update#ctor - updates are disabled as there is no update URL
+2024-09-12 12:45:08.964 [info] Extension host with pid 1209 exited with code: 0, signal: unknown.
+2024-09-12 14:26:23.914 [info] Extension host with pid 1555 exited with code: 0, signal: unknown.
+2024-09-12 14:26:25.783 [error] Extension host with pid 1555 still exists, forcefully killing it...
+2024-09-12 14:26:29.893 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072277895000, signal: unknown
+2024-09-12 14:26:31.533 [warning] [storage main] detected slow close() operation: Time: 2748ms, DB size: 36864b, Large Keys: memento/workbench.editors.files.textFileEditor:3632, __$__targetStorageMarker:1492, memento/workbench.parts.editor:1258, history.entries:1141, terminal.integrated.environmentVariableCollectionsV2:1093
+2024-09-12 14:26:31.992 [warning] [storage main] detected slow close() operation: Time: 3209ms, DB size: 32768b, Large Keys: memento/workbench.editors.files.textFileEditor:1747, memento/workbench.parts.editor:1441, __$__targetStorageMarker:1412, terminal.integrated.environmentVariableCollectionsV2:1093, workbench.view.debug.state:686
+2024-09-12 14:26:32.175 [warning] [storage main] detected slow close() operation: Time: 3392ms, DB size: 159744b, Large Keys: colorThemeData:35259, iconThemeData:21178, workbench.activity.placeholderViewlets:3717, __$__targetStorageMarker:1777, workbench.view.extensions.state.hidden:1674
