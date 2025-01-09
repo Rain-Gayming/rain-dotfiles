@@ -1,6 +1,0 @@
-2024-09-12 14:28:11.124 [info] Started local extension host with pid 14850.
-2024-09-12 14:28:17.383 [info] [perf] Render performance baseline is 64ms
-2024-09-12 14:53:33.975 [info] Extension host (LocalProcess pid: 14850) is unresponsive.
-2024-09-12 14:53:34.390 [info] Extension host (LocalProcess pid: 14850) is responsive.
-2024-09-12 14:53:35.300 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
-2024-09-12 14:53:43.142 [info] UNRESPONSIVE extension host: starting to profile NOW
